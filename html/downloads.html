@@ -22,7 +22,7 @@
           </div>
         </header> <br><br>
         <section class="onder">
-          <div id="downloads">
+          <div class="col-12">
          <center><h1><b> De onderstaande documenten kunt u downloaden:</b></h1></center><br><br>
          <button class="btn-downloads"><a class="link" href="../docs/Reglbewind2019.pdf" target="_blank">Reglement Bewindvoering</a></button><br><br>
          <button class="btn-downloads"><a class="link" href="../docs/Intakeform.pdf" target="_blank">Intake Formulier</a></button><br><br>
@@ -33,33 +33,46 @@
          <button class="btn-downloads"><a class="link" href="../docs/Klachtenregeling.pdf" target="_blank">Klachten Reglement</a></button><br><br>
          <button class="btn-downloads"><a class="link" href="../docs/Privacyverklaring.pdf" target="_blank">Privacyverklaring</a></button><br><br>
           </div>
-</section> 
-<footer>
-  <div class="logos">
-    <div style="float:left; margin-left: 1%;"><img src="../img/logo_groot-h100.png" alt="logo"></div>
-    <div style="float:right; margin-right: 1%;margin-top: 10px;"><img src="../img/nbbi-logo-h100.png" alt="logo"></div> 
-         <center><p>Created by <a href="https://www.vinkestijnbewindvoering.nl/">Vinkestijn Bewindvoering</a> &copy; 2022</p></center>
-  </div>
-  </footer>
-
-          <script>
-          window.onscroll = function() {myFunction()};
-          
-          var navbar = document.getElementById("navbar");
-          var sticky = navbar.offsetTop;
-          
-          function myFunction() {
-            if (window.pageYOffset >= sticky) {
-              navbar.classList.add("sticky")
-            } else {
-              navbar.classList.remove("sticky");
-            }
+        </section> 
+        <footer class="col-12">
+          <div class="logos">
+          <div class="logovb">
+            <img src="../img/VinkestijnBudgetBeheerBV_Logo990-300.png" alt="logo">
+          </div>
+          <div class="adres">
+            <p><br> Vinkestijn Budgetbeheer B.V. <br>
+              Postbus 11015 <br>
+              2301 EA Leiden, Nederland. <br> 
+              &phone; <a href="tel:+031715419501">0715419501</a> <br>
+              &#128231; <a href="mailto:info@vinkestijnbewindvoering.nl" target="_blank">Mail Ons</a> <br>
+              &copy;  2022  <a href="https://www.vinkestijnbewindvoering.nl/" target="_blank">Vinkestijn Bewindvoering</a> <br> 
+            </p>
+          </div>
+          </div>
+         </footer>   
+        </div>
+      </div>
+    </div>
+        
+        <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
           }
-          </script>
-          
-          </body>
-          </html>
-          
-       
-    </body>
+        }
+        </script>
+        </section>
+    
+        </body>
+        </html>
+        
+     
+  </body>
 </html>
