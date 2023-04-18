@@ -1,193 +1,82 @@
-#inhoud{
-  margin-top: 20px;
-  }
-  [class*="col-"] {
-  width: 100%;
-  }
-  @media only screen and (min-width: 768px) {
-  [class*="col-"] {
-  float: left;
-  }
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
-  }
 
 body {
-    margin: 0;
-    font-size: 28px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #ddd;
-  }
-  p{
-    margin: 5%;
-  }
-  
-  .header {
-    background-color: #5510d4;
-    padding: 1%;
-    text-align: center;
-  }
+  margin: 0;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ddd;
+}
 
-  #navbar {
-    overflow: hidden;
-    background-color: rgb(48, 39, 131);
+header{ 
+  background-image: url(../img/weversbaan.jpg);
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #464646;
+  height: 40vh;
+  background-position: center;
 
-  }
-  
-  #navbar a {
-    border: ;
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 1%;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  #navbar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  #navbar a.active {
-    background-color: #240ee9;
-    color: white;
-  }
-  
-  .content {
-    padding: 16px;
-  }
-  
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  .sticky + .content {
-    padding-top: 60px;
-  }
-  .btn-blue {
-    width: 25%;
-    margin: 5%;
-    text-decoration: none;
-    border-radius: 5%;
-    color: #fff;
-    background-color:  rgb(48, 39, 131);
-    cursor: pointer;
-    padding: 2%;
-  }
-  .btn-blue a:hover {
-    background-color: #ddd;
-    color: black;
-    padding: 2%;
-    border-radius: 1%;
-  }
-  
-  .btn-blue a.active {
-    background-color: #240ee9;
-    color: white;
-  }
-  .doen { 
-    background-color: #eee;
-    padding-top: 1%;
 
-  }
-  .zijkant { 
-    background-color: #ddd;
-    color:black;
-    margin: 5%;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-top: 1%;
-  }
-  .link {
-    text-decoration: none;
-   
-    background-color:  rgb(48, 39, 131);;
-    color: #fff;
-    padding: 3px;
-    font-weight: bold;
-    font-size: 15px;
-    cursor: pointer;
-  }
-  .afwijkend {
-    color: red;
-    font-weight: bold;
+} 
+.headerdown{ 
+  background-image: url(../img/weversbaan.jpg);
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #464646;
+  height: 40vh;
+  background-position: center;
 
+
+} 
+
+
+h1,h2,h3 {
+  padding: 16px;
+  background-color:  rgb(0, 159, 227);
+font-weight: bold;}
+ hr {
+  clear: both;
+  height: 5px;
+ }
+ .doen { 
+  background-color: #eee;
+  text-align: left;
+
+}
+.zijkant { 
+  height: auto;
+  background-color: #ddd;
+  color:black;
+}
+.download { 
+  background-color: #ddd;
+  text-align: left;
+
+}
+.zijkantdownload { 
+  height: auto;
+  background-color: #b0b0b0;
+  color:black;
+}
+
+
+
+.btn-primary {
+  background: rgb(48, 39, 131);
+  
   }
-  .logovb{
-    margin-top: 1%;
-  float:left; 
-  margin-left: 1%;
-  }
-  .adres{
-    float: right;
-  }
-  .onderlogo {
-    float: left;
-    background-color: #ddd;
-   
+  
+footer {
+  background-image: url(../img/x.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
  
+  background-size: cover;
+  background-color: #464646;
 
-  }
-  .onderlogolinks {
-    float: right;
-    background-color: #ddd;
-  }
+}
+.adres {
+  font-weight: bold;
+  font-size: 2.5rem;
  
-
-  
-  .btn-downloads {
-    font-size: 10%;
-    font-weight: 900;
-    text-align: center;
-    text-decoration: none;
-    width: 40%;
-    color: #fff;
-    background-color:  rgb(48, 39, 131);
-    cursor: pointer;
-    padding: 16px; 
-    margin-left: 35%;
-  }
-    .btn-downloads a:hover {
-      background-color: #ddd;
-      color: black;
-      padding: 2%;
-      border-radius: 1%;
-    }
-    
-    .btn-downloads a.active {
-      background-color: #240ee9;
-      color: white;
-    }
-    
-  h1,h2,h3 {
-    width: auto;
-    padding: 2%;
-    margin: 5%;
-    background-color:  rgb(0, 159, 227);}
-   hr {
-    clear: both;
-    height: 5px;
-   }
-
-.logos {
-   
-    background-image: url(../img/test.jpg);
-    background-size: 100%;
-    height: 323px;
-   
-    
 }
