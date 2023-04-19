@@ -23,7 +23,7 @@ footer{
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #464646;
-  height: 40vh;
+  height: 20vh;
   background-position: center;
 
 
@@ -54,23 +54,23 @@ font-weight: bold;}
 
 }
 .zijkantdownload { 
-  height: auto;
-  background-color: #b0b0b0;
-  color:black;
-}
-/*
-footer {
-  background-image: url(../img/x.jpg);
-  background-position: center center;
+  background-image: url(../img/de-antieke-telefoon-van-de-kandelaar-84811111.jpg);
+  
   background-repeat: no-repeat;
- 
   background-size: cover;
   background-color: #464646;
+  height: auto;
+  background-position: center;
 
+ /* height: auto;
+  background-color: #b0b0b0;
+  color:black; */
 }
-*/
+
 .adres {
+  color: #ddd;
   font-weight: bold;
   font-size: 2.5rem;
  
 }
+
