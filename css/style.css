@@ -7,23 +7,23 @@ body {
 }
 
 header{ 
-  background-image: url(../img/weversbaan.jpg);
-  
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #464646;
-  height: 40vh;
-  background-position: center;
-
-
-} 
-footer{ 
-  background-image: url(../img/weversbaan.jpg);
+  background-image: url(../img/laptop-593673.jpg);
   
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #464646;
   height: 20vh;
+  background-position: center;
+
+
+} 
+footer{ 
+  background-image: url(../img/computer-2982270_1920.jpg);
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #464646;
+  height: 30vh;
   background-position: center;
 
 
@@ -39,22 +39,29 @@ font-weight: bold;}
   height: 5px;
  }
  .doen { 
-  background-color: #eee;
+  background-color: #BCE4FA;
   text-align: left;
+  padding: 3%;
 
 }
 .zijkant { 
   height: auto;
-  background-color: #ddd;
+  background-color: #009FE3;
   color:black;
+  padding: 3%;
 }
 .download { 
-  background-color: #ddd;
+  background-color: #eee;
   text-align: left;
 
 }
 .zijkantdownload { 
-  background-image: url(../img/de-antieke-telefoon-van-de-kandelaar-84811111.jpg);
+
+  height: auto;
+  background-color: #ddd;
+  color:black;
+  /*
+  background-image: url(../img/hand-4661763_1920.jpg);
   
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,11 +69,11 @@ font-weight: bold;}
   height: auto;
   background-position: center;
 
- /* height: auto;
+ height: auto;
   background-color: #b0b0b0;
   color:black; */
 }
-
+/*
 .adres {
   color: #ddd;
   font-weight: bold;
@@ -74,3 +81,4 @@ font-weight: bold;}
  
 }
 
+*/
