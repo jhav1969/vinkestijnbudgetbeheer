@@ -18,13 +18,7 @@ header{
 
 } 
 footer{ 
-  background-image: url(../img/computer-2982270_1920.jpg);
-  
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #464646;
-  height: 30vh;
-  background-position: center;
+background-color: #ddd;
 
 
 } 
@@ -33,35 +27,40 @@ footer{
 h1,h2,h3 {
   padding: 16px;
   background-color:  rgb(0, 159, 227);
-font-weight: bold;}
- hr {
-  clear: both;
-  height: 5px;
- }
+  font-weight: bold;
+  }
+
  .doen { 
   background-color: #BCE4FA;
   text-align: left;
-  padding: 3%;
+  padding: 2rem;
 
 }
 .zijkant { 
   height: auto;
-  background-color: #009FE3;
+  background-color: #eee;
   color:black;
-  padding: 3%;
+  padding: 2rem;
+}
+
+
+
+.contact { 
+  background-color: #BCE4FA;
+  padding: 2rem;
+  font-weight: bold;
+  font-size: 2rem;
+
 }
 .download { 
-  background-color: #eee;
-  text-align: left;
+  background-color: #BCE4FA;
+  padding: 2rem;
+  font-weight: bold;
+  font-size: 3rem;
 
 }
-.zijkantdownload { 
-
-  height: auto;
-  background-color: #ddd;
-  color:black;
-  /*
-  background-image: url(../img/hand-4661763_1920.jpg);
+.downloadzijkant{ 
+  background-image: url(../img/pexels-deyvi-romero-89955.jpg);
   
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,10 +68,11 @@ font-weight: bold;}
   height: auto;
   background-position: center;
 
- height: auto;
-  background-color: #b0b0b0;
-  color:black; */
-}
+
+} 
+
+
+
 /*
 .adres {
   color: #ddd;
@@ -82,3 +82,15 @@ font-weight: bold;}
 }
 
 */
+.onder{
+  background-image: url(../img/pexels-deyvi-romero-89955.jpg);
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #464646;
+  height: auto;
+  background-position: center;
+  padding: 3%;
+  color: white;
+
+}
